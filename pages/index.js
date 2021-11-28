@@ -184,6 +184,13 @@ export default function Home() {
               </a>
               </div>
             </div>
+           <div className={styles.team_card_div}>
+              <div className={styles.img_div}>
+              <a href="https://twitter.com/SteelrEth " rel="noopener noreferrer" target="_blank">
+                <img src="/assets/SteelrEth.JPG" />
+              </a>
+              </div>
+            </div>
             
           </Row>
         </div>

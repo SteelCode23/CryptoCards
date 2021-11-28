@@ -6,7 +6,7 @@ export function Header() {
   return (
       <Container>     
       <Script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js" />
-      <Script  id="my-script"
+      <Script
   dangerouslySetInnerHTML={{
     __html: `
     var account = null;
@@ -503,7 +503,7 @@ export function Header() {
   }
 ]
 ;
-    const ADDRESS = "0x8D6afe29003b125F9141b07D2eF61cE297F7b6fA";
+    const ADDRESS = "0x1dA7035145549E63593Cda3A9b15953Fb76878EF";
     (async () => {
       if(window.ethereum){
         document.getElementById('wallet-address').onclick = async () => {
