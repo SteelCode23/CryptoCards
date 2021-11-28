@@ -1,0 +1,17 @@
+.layout{
+    position: relative;
+    .bg_top{
+        position: absolute;
+        transform: rotate(-22.88deg);
+        width: 50rem;
+        top: 28rem;
+        left: -14rem;
+    }
+    .bg_bottom{
+        position: absolute;
+        bottom: 52rem;
+        right: 0;
+        width: 50rem;
+    }
+
+}

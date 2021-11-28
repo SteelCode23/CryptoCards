@@ -1,0 +1,160 @@
+
+@font-face {
+  font-family: 'popins';
+  src: url('../public/fonts/Poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'popins-R';
+  src: url('../public/fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'popins-L';
+  src: url('../public/fonts/Poppins/Poppins-Light.ttf');
+}
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'popins' !important;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+    background-color: #000000 !important;
+    overflow-x: clip;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5% !important ;
+}
+@media screen and (max-width: 1920px) and (min-width: 1600px) {
+  html {
+    font-size: 58% !important;
+  }
+}
+@media screen and (max-width: 1599px) and (min-width: 1366px) {
+  html {
+    font-size: 52% !important;
+  }
+}
+@media screen and (max-width: 1365px) and (min-width: 1024px) {
+  html {
+    font-size: 50% !important;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  html {
+    font-size: 45% !important;
+  }
+}
+@media screen and (max-width: 471px) and (min-width: 320px) {
+  html {
+    font-size: 42.5% !important;
+  }
+}
+
+/* Header NabBar Styling */
+.openSeaAM{
+  display: none;
+}
+.header{
+  margin: 2rem 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.header .logo{
+
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff !important;
+
+}
+.header .openSea:hover{
+  background-color: #fff !important;
+  color: #000;
+  border-color: #000; 
+}
+
+
+.navbar-toggler{
+  background-color: #fff !important;
+}
+.navbar{
+  padding: 3rem 0 !important;
+}
+.navbar-light .navbar-brand {
+ 
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 2rem;
+  height: 42px;
+  line-height: 30px;
+  color: #000000 !important;
+  background-color: #fff;
+  margin: 0px 1px;
+  border-radius: 50px;
+  padding: 5px 20px !important;
+  width: max-content;
+  border: 2px solid #000;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff !important;
+  background-color: #000;
+  border: 2px solid #fff;
+}
+.header_bttn_div{
+  display: flex;
+}
+@media screen and (max-width: 768px){
+  .navbar-collapse{
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-nav{
+    align-items: center;
+    width: 100%;
+  }
+  .me-auto{
+    margin-right: 0 !important;
+  }
+  .navbar-light .navbar-nav .nav-link{
+    background-color: transparent;
+    color: #fff !important;
+  }
+}
+@media screen and (max-width: 576px){
+  .header_bttn_div{
+    
+  }
+  .header .mintM{
+    display: none;
+  }
+  .header{
+    flex-direction: column;
+  }
+  .header .logo{
+    text-align: center;
+  }
+  .openSeaA{
+    display: none;
+  }
+  .header_bttn_div{
+    justify-content: space-evenly;
+    margin-top: 12px;
+  }
+  .openSeaAM{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8rem;
+  }
+}

@@ -1,0 +1,22 @@
+.app_bttn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 4rem;
+    border: 2px solid #fff  !important;
+    outline: none;
+    height: 5.6rem;
+    width: max-content;
+    font-size: 2.4rem;
+    border-radius: 5rem;
+    background-color: transparent;
+  }
+  .app_bttn:hover {
+    transform: translateY(-2px);
+    background-color: #FF4B31;
+  }
+  .app_bttn:focus {
+    box-shadow: none;
+  }
+  
