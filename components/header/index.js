@@ -6,7 +6,7 @@ export function Header() {
   return (
       <Container>     
       <Script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js" />
-      <Script
+      <Script id ="Eth Script"
   dangerouslySetInnerHTML={{
     __html: `
     var account = null;
